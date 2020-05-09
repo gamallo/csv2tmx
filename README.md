@@ -4,7 +4,7 @@
 
 * `tmx2csv` is a converter from TMX file to CSV.
 
-* These conversors are suitable for parallel corpora editors (e.g. OmegaT), translation tools, bilingual dictionary contruction (e.g.(alignment2dict)[https://github.com/gamallo/alignment2dict]).
+* These conversors are suitable for parallel corpora editors (e.g. OmegaT), translation tools, bilingual dictionary contruction (e.g.[alignment2dict](https://github.com/gamallo/alignment2dict)).
 
 ## Requeriments:
  * Bash and Perl
