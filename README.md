@@ -1,5 +1,8 @@
 # csv2tmx
-Converter CSV file to TMX suitable for parallel corpora editors (e.g. OmegaT), translation tools, etc. 
+
+* `csv2tmx` is a converter from CSV file to TMX, suitable for parallel corpora editors (e.g. OmegaT), translation tools, etc.
+
+* `csv2tmx` is a converter from TMX file to CSV
 
 ## Requeriments:
  * Bash and Perl
@@ -11,5 +14,9 @@ The input CSV file can be a sentence aligned corpus in two languages. It must co
 
 ```cat input.csv  | ./csv2tmx.perl  en  pt```
 
-The script `csv2tmx.perl` takes the source and target language names as arguments. 
+The script `csv2tmx.perl` takes the source and target language names as arguments.
+
+The reverse conversion:
+
+```cat input.tmx  | ./tmx2csv.perl  en  pt```
 
