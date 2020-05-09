@@ -1,8 +1,10 @@
 # csv2tmx
 
-* `csv2tmx` is a converter from CSV file to TMX, suitable for parallel corpora editors (e.g. OmegaT), translation tools, etc.
+* `csv2tmx` is a converter from CSV file to TMX.
 
-* `csv2tmx` is a converter from TMX file to CSV
+* `tmx2csv` is a converter from TMX file to CSV.
+
+* These conversors are suitable for parallel corpora editors (e.g. OmegaT), translation tools, bilingual dictionary contruction (e.g.(alignment2dict)[https://github.com/gamallo/alignment2dict]).
 
 ## Requeriments:
  * Bash and Perl
