@@ -13,8 +13,12 @@ print "<!DOCTYPE tmx SYSTEM \"tmx14.dtd\">\n";
 print "<tmx version=\"1.4\">\n";
 print "  <header\n";
 print "    creationtool=\"csv2tmx\"\n";
+print "    creationtoolversion=\"1.0\"\n";
+print "    datatype=\"unknown\"\n";
 print "    segtype=\"sentence\"\n";
-print "    adminlang=\"en\"\/>\n";
+print "    adminlang=\"en\"\n";
+print "    srclang=\"en\"\n";
+print "    o-tmf=\"unknown\"\/>\n";
 
 print "  <body>\n";
 
