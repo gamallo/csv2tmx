@@ -23,8 +23,8 @@ while (my $entry = <STDIN>) {
     my ($seg1, $seg2) = split ('\t', $entry);
     
     print "    <tu tuid=\"$count\">\n";
-    print "      <tuv xmil:lang=\"$ling1\"><seg>$seg1<\/seg><\/tuv>\n";
-    print "      <tuv xmil:lang=\"$ling2\"><seg>$seg2<\/seg><\/tuv>\n";
+    print "      <tuv xml:lang=\"$ling1\"><seg>$seg1<\/seg><\/tuv>\n";
+    print "      <tuv xml:lang=\"$ling2\"><seg>$seg2<\/seg><\/tuv>\n";
     print "    <\/tu>\n";
 
     $count++;
