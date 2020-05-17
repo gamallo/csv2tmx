@@ -9,6 +9,7 @@ my $ling1 = shift(@ARGV);
 my $ling2 = shift(@ARGV);
 
 print "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n";
+print "<!DOCTYPE tmx SYSTEM \"tmx14.dtd\">\n";
 print "<tmx version=\"1.4\">\n";
 print "  <header\n";
 print "    creationtool=\"csv2tmx\"\n";
@@ -20,6 +21,7 @@ print "  <body>\n";
 my $count=1;
 while (my $entry = <STDIN>) {
     if ($entry !~ /\t/) {next}
+    chomp $entry;
     my ($seg1, $seg2) = split ('\t', $entry);
     
     print "    <tu tuid=\"$count\">\n";
