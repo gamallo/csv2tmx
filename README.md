@@ -1,4 +1,4 @@
-# csv2tmx
+# csv2tmx and tmx2csv
 
 * `csv2tmx` is a converter from CSV file to TMX.
 
