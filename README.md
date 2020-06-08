@@ -18,7 +18,7 @@ The input CSV file can be a sentence aligned corpus in two languages. It must co
 
 The script `csv2tmx.perl` takes the source and target language names as arguments.
 
-The reverse conversion:
+The reverse conversion (tmx2csv):
 
 ```cat input.tmx  | ./tmx2csv.perl  en  pt```
 
