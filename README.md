@@ -13,6 +13,7 @@
 The input CSV file can be a sentence aligned corpus in two languages. It must contain, at least, two columns: one with the sentences in the source language and the other with the aligned sentences in the target language.
 
 ## How to use:
+To convert csv into tmx:
 
 ```cat input.csv  | ./csv2tmx.perl  en  pt```
 
